@@ -1,0 +1,513 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: auto;
+  font-family: Roboto, sans-serif;
+}
+
+.page {
+  display: flex;
+  position: relative;
+  min-height: 100%;
+  width: 100%;
+  background: url("images/fon2.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding-bottom: 60px; 
+}
+
+.conteiner {
+  position: relative;
+  top: 95px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 100%; 
+  align-items: center;
+}
+
+.hhru {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  z-index: 999999;
+  align-items: center;
+}
+
+.header {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  height: 9%;
+  margin-top: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 999999; 
+  top: 0px;    
+  padding-left: 20px;
+  padding-right: 20px;
+  position: absolute;
+  background: rgba(193, 193, 193, 0.884);
+  border-radius: 30px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-family: Roboto, sans-serif;
+}
+
+.namelogo {
+  margin-left: 15px;
+  color: #363636;
+  font-size: 40px;
+  word-spacing: 5%;
+  font-weight: 600;
+}
+
+.logo img {
+  display: flex;
+  width: 70px;
+  height: 70px;
+  justify-content: left;
+  align-items: center;
+  justify-self: start;
+}
+
+.razdelrazdel {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: Roboto, sans-serif;
+}
+
+.burgermenu {
+  padding: 0;
+  width: 70px;
+  border-radius: 30px;
+  z-index: 99999999999999999999999999999999999999999999999;
+  justify-self: end;
+  border: none;
+  background: none;
+}
+
+.burgermenu img {
+  display: flex;
+  width: 70px;
+  height: 70px;
+  justify-content: left;
+  align-items: center;
+  justify-self: end;
+}
+
+.logincard {
+  width: 900px;
+  height: auto;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.72);
+  border-radius: 30px;
+  border: 4px solid #000000;
+  padding: 40px 30px;
+  box-sizing: border-box;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+ 
+.logincard .hhru {
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+hr {
+  height: 3px;
+  border: none;
+  width: 70%;
+  background-color: #000000;
+  margin-bottom: 30px;
+}
+
+.profileinfo {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.profileinfo h2 {
+  font-family: Roboto, sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0;
+  color: #000000;
+}
+
+.profileinfo p {
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  color: #363636;
+  margin: 5px 0 0 0;
+}
+
+.loginform {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  margin-top: 0px;
+}
+
+.rowka {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  width: 90%;
+}
+
+.rowka .inputitem, .rowka select {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 48%;
+  margin: 0;
+}
+
+.rowka .inputitem label {
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 20px;
+}
+
+.rowka .inputitem input{
+  width: 100%;
+  height: 58px;
+  background: #D9D9D9;
+  border: 1px solid #000000;
+  border-radius: 30px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 0 25px;
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+
+.rowka select {
+  width: 100%;
+  background: #D9D9D9;
+  border: 1px solid #000000;
+  border-radius: 30px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  padding: 15px;
+}
+
+.odinochka {
+  justify-content: right;
+}
+
+.signa button {
+  margin: 30px auto 0;
+  display: block;
+  width: 50%;
+  height: 70px;
+  background: #D9D9D9;
+  color: black;
+  border-radius: 25px;
+  border: none;
+  transition: 0.3s;
+  font-size: 28px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.signa button:hover {
+  transform: translateY(-3px);
+  background: #9b9b9b;
+}
+
+.sidemenu {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 360px;
+  height: 100%;
+  max-height: 500px;
+  background-color: #2C2C2C;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 20px;
+  z-index: 999999999999;
+}
+
+.otdel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 15px;
+  width: 100%;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidemenulogo {
+ position: sticky;
+}
+
+.sidemenulogo img {
+  width: 110px;
+  height: auto;
+}
+
+.closee {
+  justify-self: end;
+}
+
+.sidemenuclose {
+  width: 48px;
+  height: 48px;
+  border: none;
+  background: none;
+  color: #fff;
+  font-size: 32px;
+}
+
+.sidemenunav {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sidemenunav a {
+  display: block;
+  padding: 18px 24px;
+  color: #eeeeee;
+  font-size: 26px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+
+.sidemenunav a:hover {
+  background: #2C2C2C;
+}
+
+.genderselection {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.genderlabel {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+  cursor: pointer;
+}
+
+
+
+footer {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  padding: 0px 20px;
+  background: #363636;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+footer img {
+  height: 70%;
+  object-fit: contain;
+}
+
+@media (max-width: 882px) {
+  html, body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  body {
+    height: auto;
+  }
+
+  .page {
+    display: flex;
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+  }
+
+  .header {
+    display: flex;
+    background: none;
+    box-shadow: none;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .razdelrazdel {
+    border-radius: 50px;
+    text-align: center;
+    padding: 25px 60px; 
+    width: 60%;
+    margin-top: 200px;
+    white-space: nowrap;
+    color: #000000;
+    background-color: #ffffffa9;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Roboto, sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+  }
+
+  .burgermenu {
+    position: fixed;
+    top: 15px;
+    right: 30px;
+    width: 70px;
+    z-index: 999999;
+  }
+
+  .conteiner {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px 40px 15px;
+    margin-top: 80px;
+    box-sizing: border-box;
+    top: 30px;
+  }
+
+  .logincard {
+    width: 100%;
+    max-width: 480px;
+    margin-top: 140px;
+    padding: 40px 20px;
+    border: none;
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 0.719);
+    box-sizing: border-box;
+  }
+
+  .logincard .hhru {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 15px;
+  }
+
+  .loginform {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .loginform .inputitem {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    gap: 15px;
+  }
+
+  .loginform .inputitem label {
+    font-size: 26px;
+    font-weight: 500;
+    padding-left: 0;
+    flex-shrink: 0;
+    text-align: left;
+    border: none;
+  }
+
+  .loginform .inputitem input {
+    border: none;
+    width: 100%;
+    height: 64px;
+    padding: 0 20px;
+    font-size: 20px;
+    border-radius: 30px;
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .rowka {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .rowka .inputitem, .rowka select {
+    width: 100%;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .signa button {
+    width: 100%;
+    height: 76px;
+    font-size: 32px;
+    border-radius: 30px;
+  }
+  .genderselection {
+    flex-wrap: wrap;
+    padding-left: 20px;
+    gap: 15px;
+  }
+  
+  .genderlabel {
+    font-size: 22px;
+  }
+  
+}

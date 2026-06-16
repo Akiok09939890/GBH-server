@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cabinetchange.css">
+    <title>GBH</title>
+</head>
+<body> 
+    <header>
+        <div class="header">
+            <div class="logo"><img src="../source/logo.png" alt="Logo" id="home"><div class="namelogo">GBH</div></div>
+            <div class="razdelrazdel">Расчет БЖУ</div>
+            <button class="burgermenu" type="button" id="burgers" onclick="toggleMenu()"><img src="../source/menu.png" alt="Menu"></button>
+        </div>
+    </header>
+    <div class="page">
+        <div class="conteiner">
+            <div class="logincard">
+                <h1 class="hhru">Личный кабинет</h1>
+                <hr>
+
+                <form action="" class="loginform">
+                    <div class="rowka">
+                        <div class="inputitem">
+                            <label for="username">Никнейм</label>
+                            <input type="text" id="Nickname" name="username" placeholder="GumBro">
+                        </div>
+                        <div class="inputitem">
+                            <label for="goals">Цели тренировок</label>
+                            <select id="Goals">
+                                <option value="0"></option>
+                                <option value="1">Поддержание веса</option>
+                                <option value="2">Похудение</option>
+                                <option value="3">Набор мышечной массы</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="rowka">
+                        <div class="inputitem">
+                            <label for="fio">ФИО</label>
+                            <input type="text" id="Fio" name="fio" placeholder="Фамилия Имя Отчетсво">
+                        </div>
+                        <div class="inputitem">
+                            <label for="level">Уровень физической подготовки</label>
+                            <select id="Level">
+                                <option value="0"></option>
+                                <option value="1">Новичок</option>
+                                <option value="2">Средний</option>
+                                <option value="3">Профи</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="rowka">
+                        <div class="inputitem">
+                            <label for="email">Email</label>
+                            <input type="email" id="Email" name="email" placeholder="email@gmail.com">
+                        </div>
+                        <div class="inputitem">
+                            <label for="height">Рост</label>
+                            <input type="text" id="Height" name="height" placeholder="В см">
+                        </div>
+                    </div>
+
+                    <div class="rowka">
+                        <div class="inputitem">
+                            <label for="age">Возраст</label>
+                            <input type="text" id="Age" name="age" placeholder="Лет">
+                        </div>
+                        <div class="inputitem">
+                            <label for="weight">Вес</label>
+                            <input type="text" id="Weight" name="weight" placeholder="В кг">
+                        </div>
+                    </div>
+
+                    <div class="genderselection">
+                        <label class="genderlabel">
+                            <input type="radio" name="gender" value="male">Мужской</label>
+                        </label>
+                        <label class="genderlabel">
+                            <input type="radio" name="gender" value="female">Женский</label>
+                        </label>
+                    </div>
+
+                    <div class="signa">
+                        <button type="button" onclick="savedata();">Сохранить</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <aside class="sidemenu" id="sideMenu">
+            <div class="otdel">
+                <div class="sidemenulogo">
+                    <img src="../source/logo-alt.png">
+                </div>
+                <div class="closee">
+                    <button type="button" class="sidemenuclose" id="menuClose" onclick="closeMenu()">×</button>
+                </div>
+            </div>
+            <nav class="sidemenunav">
+                <a href="../main/main.html">Главная</a>
+                <a href="../cabinet/cabinet.html">Личный кабинет</a>
+                <a href="../calc/calc.html">Расчет БЖУ</a>
+                <a href="../diary/diary.html">Дневник</a>
+                <a href="../base/base.html">База упражнений</a>
+            </nav>
+        </aside>
+    </div>
+    <footer>
+        <img src="../source/logo-alt.png" alt="logo">
+    </footer>
+    <script src="../scripts/menu.js"></script>
+    <script src="../scripts/cabinetchange.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="uprinfo.css">
+    <title>GBH</title>
+</head>
+<body> 
+    <header>
+        <div class="header">
+            <div class="logo"><img src="../source/logo.png" alt="Logo" id="home"><div class="namelogo">GBH</div></div>
+            <div class="razdelrazdel">Дневник тренировок</div>
+            <button class="burgermenu" type="button" id="burgers" onclick="toggleMenu()"><img src="../source/menu.png" alt="Menu"></button>
+        </div>
+    </header>
+    <div class="page">
+        <div class="conteiner">
+            <div class="zagazaga">Упражнения для грудных мышц</div>
+            
+            <a href="https://vkvideo.ru/video-75256904_456239460" target="_blank"><div class="pleer" id="pleer"></div></a>
+
+            <div class="blokes">
+                <div class="podzagolovok">Техника выполнения</div>
+                <p class="groupm">Лягте на скамью, ноги устойчиво на полу. Возьмите штангу хватом чуть шире плеч. Опустите штангу к груди, затем выжмите вверх, полностью выпрямляя руки. Локти держите под углом 45-60 градусов к корпусу.</p>
+            </div>
+
+            <div class="blokes">
+                <div class="podzagolovok">Работающие мышцы</div>
+                <p class="groupm">Грудные, трицепс, передняя дельта</p>
+            </div>
+
+            <div class="blokknopok">
+                <button type="button" class="btnact btnback" onclick="document.location.href='../base/base.html'">Назад к упражнениям</button>
+            </div>
+        </div>
+        <aside class="sidemenu" id="sideMenu">
+            <div class="otdel">
+                <div class="sidemenulogo">
+                    <img src="../source/logo-alt.png">
+                </div>
+                <div class="closee">
+                    <button type="button" class="sidemenuclose" id="menuClose" onclick="closeMenu()">×</button>
+                </div>
+            </div>
+            <nav class="sidemenunav">
+                <a href="../main/main.html">Главная</a>
+                <a href="../cabinet/cabinet.html">Личный кабинет</a>
+                <a href="../calc/calc.html">Расчет БЖУ</a>
+                <a href="../diary/diary.html">Дневник</a>
+                <a href="../base/base.html">База упражнений</a>
+            </nav>
+        </aside>
+    </div>
+    <footer>
+        <img src="../source/logo-alt.png" alt="logo">
+    </footer>
+    <script src="../scripts/menu.js"></script>
+    <script src="../scripts/uprinfo.js"></script>
+</body>
+</html>

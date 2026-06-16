@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calcres.css">
+    <title>GBH</title>
+</head>
+<body> 
+    <header>
+        <div class="header">
+            <div class="logo"><img src="../source/logo.png" alt="Logo" id="home"><div class="namelogo">GBH</div></div>
+            <div class="razdelrazdel">Расчет БЖУ</div>
+            <button class="burgermenu" type="button" id="burgers" onclick="toggleMenu()"><img src="../source/menu.png" alt="Menu"></button>
+        
+        </div>
+    </header>
+    <div class="page">
+        <div class="conteiner">
+            <div>
+                <h1>Результат</h1>
+            </div>
+            <div class="resultss">
+                <div class="firstblock">
+                    <div class="glava"><h2>Целевые значения</h2></div>
+                    <div class="calorii">
+                        <div class="block1">
+                            <div>
+                                <div id="cal" class="valuesmus ex">6767</div>
+                                <div class="valmus">Ккал</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fignya">
+                        <div class="block">
+                            <div>
+                                <div class="valuesmus" id="belValue">100</div>
+                                <div id="bel" class="valmus">Белки, грамм</div>
+                            </div>
+                        </div>
+                        <div class="block">
+                            <div>
+                                <div class="valuesmus" id="zhirValue">82</div>
+                                <div class="valmus">Жиры, грамм</div>
+                            </div>
+                        </div>
+                        <div class="block">
+                            <div>
+                                <div class="valuesmus" id="uglValue">228</div>
+                                <div class="valmus s">Углеводы, грамм</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="secblokes"> 
+                    <div class="leftblock bb">
+                        <div class="valuesmus ex" id="bmrValue">1800</div>
+                        <div class="bg">Основной<br>обмен, ккал</div>
+                        <div class="leftinfo">
+                            <P>Ниже вредно для здоровья</P>
+                        </div>
+                    </div>
+                    <div class="rightblock bb">
+                        <div class="valuesmus ex g" id="tdeeValue">2900</div>
+                        <div class="bg g">Суточные <br>энергозатраты, ккал</div>
+                        <div class="leftinfo">
+                            <P>по Миффлину-Сан Жеору</P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button type="button" class="buttonback" onclick="document.location.href='../calc/calc.html'">Посчитать еще раз</button>
+            </div>
+        </div>
+        <aside class="sidemenu" id="sideMenu">
+            <div class="otdel">
+                <div class="sidemenulogo">
+                    <img src="../source/logo-alt.png">
+                </div>
+                <div class="closee">
+                    <button type="button" class="sidemenuclose" id="menuClose" onclick="closeMenu()">×</button>
+                </div>
+            </div>
+            <nav class="sidemenunav">
+                <a href="../main/main.html">Главная</a>
+                <a href="../cabinet/cabinet.html">Личный кабинет</a>
+                <a href="../calc/calc.html">Расчет БЖУ</a>
+                <a href="../diary/diary.html">Дневник</a>
+                <a href="../base/base.html">База упражнений</a>
+            </nav>
+        </aside>
+    </div>
+    <footer>
+        <img src="../source/logo-alt.png" alt="logo">
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

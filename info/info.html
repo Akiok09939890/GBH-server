@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="info.css">
+    <title>GBH</title>
+</head>
+<body> 
+    <header>
+        <div class="header">
+            <div class="logo"><img src="../source/logo.png" alt="Logo" id="home"></div>
+            <button class="burgermenu" type="button" id="burgers" onclick="toggleMenu()"><img src="../source/menu.png" alt="Menu"></button>
+        </div>
+    </header>
+    <div class="page">
+        <div class="conteiner">
+            <div class=" vcentre">
+                <div class="razdel"><span class="razdeltext">Информация о сайте</span></div>
+                <div class="texte"><p style="margin-top: 0px;"><b>GYMBROHUB</b> – это твой персональный цифровой бро в мире фитнеса. Мы создали удобную платформу, которая объединяет базу эффективных упражнений, интерактивный калькулятор БЖУ и простой дневник тренировок для отслеживания твоего прогресса.</p>
+                    <p>​Наш ресурс одинаково хорош как для новичков, которые только пришли в зал и не знают, с чего начать, так и для опытных атлетов, штурмующих новые веса. Никакой лишней воды – только чистая мотивация и рабочие инструменты.</p>
+                    <p>​Прокачивай свое тело, следи за питанием, веди учет подходов и становись лучшей версией себя каждый день вместе с сообществом <b>GYMBROHUB!</b></span></p></div>
+                    <div class="btnback">
+                        <button class="buttonback" onclick="document.location.href='../main/main.html'">Назад</button>
+                    </div>
+                </div>
+        </div>
+        <aside class="sidemenu" id="sideMenu">
+            <div class="otdel">
+                <div class="sidemenulogo">
+                    <img src="../source/logo-alt.png">
+                </div>
+                <div class="closee">
+                    <button type="button" class="sidemenuclose" id="menuClose" onclick="closeMenu()">×</button>
+                </div>
+            </div>
+            <nav class="sidemenunav">
+                <a href="../main/main.html">Главная</a>
+                <a href="#">Личный кабинет</a>
+                <a href="#">Расчет БЖУ</a>
+                <a href="#">Дневник</a>
+                <a href="#">База упражнений</a>
+            </nav>
+        </aside>
+    </div>
+    <footer>
+        <img src="../source/logo-alt.png" alt="logo">
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
